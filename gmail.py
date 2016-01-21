@@ -9,7 +9,7 @@ emailElem.send_keys('yuba.danna@gmail.com')
 loginElem = browser.find_element_by_id('next')
 loginElem.click()
 
-passwordElem = browser.find_element_by_id('Passwd')
+passwordElem = browser.find_element_by_name('Passwd')
 passwordElem.send_keys('pie1234567')
 
 passwordElem.submit()
